@@ -1,0 +1,10 @@
+.backimage {
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.63)),
+        url("./wer.jpg");
+    background-size: cover;
+    transition: ease 100ms;
+}
+
+.backimage:hover {
+    transform: scale(1.1);
+}

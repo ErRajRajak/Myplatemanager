@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backimage {
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.63)),
+        url("https://picsum.photos/200/300");
+    background-size: cover;
+    transition: ease 100ms;
+}
+
+.keto {
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.63)),
+        url("./images/keto.jpg");
+    background-size: cover;
+    transition: ease 100ms;
+}
+.medical {
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.63)),
+        url("./images/medical.jpg");
+    background-size: cover;
+    transition: ease 100ms;
+}
+.wieght-loss {
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.63)),
+        url("https://i2.wp.com/www.eatthis.com/wp-content/uploads/2020/07/woman-eating-healthy.jpg?fit=1200%2C879&ssl=1");
+    background-size: cover;
+    transition: ease 100ms;
+}
+
+.backimage:hover {
+    transform: scale(1.1);
+}
